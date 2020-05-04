@@ -1,6 +1,4 @@
-# Java集合
-
-## List
+# List
 
 List<E>是一种有序链表
 
@@ -104,3 +102,5 @@ arrayList.addAll(list);
 - 优先使用ArrayList而不是LinkedList
 - 可以直接使用for...each遍历
 - 可以直接和Array相互转换
+
+

@@ -1,5 +1,7 @@
 package com.cj.javase.java集合;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -13,9 +15,10 @@ import java.util.List;
  */
 
 
-public class UtilList {
+public class UtilListTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void testList() {
         List<String> list = new ArrayList<>();
         list.add("Apple");
         list.add("Pear");
@@ -36,6 +39,17 @@ public class UtilList {
         for (String s : ss){
             System.out.println(s);
         }
+    }
+
+    @Test
+    public void testEquals(){
+        List<Person> persons = new ArrayList<>();
+        persons.add(new Person("Cai",25));
+        persons.add(new Person("Jun",26));
+        persons.add(new Person("Qian",20));
+        System.out.println(persons);
+
+        System.out.println(persons.contains(new Person("Jun",26)));
 
 
 

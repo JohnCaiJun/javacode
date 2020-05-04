@@ -1,3 +1,5 @@
-# Java 基础
 
-* [集合](java基础/javalist.md)
+
+
+* [List](java基础/list.md)
+* [Equals方法](java基础/equals.md)
