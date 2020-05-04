@@ -1,11 +1,4 @@
-## 持久层
-### JDBC
 
-手写jdbc流程
-
-目标：将jdbc流程烂熟于心
-
-### Mybatis
 #### Mybatis 核心
 一、mybatis框架原理分析
  1. 接口层（SqlSession接口）
