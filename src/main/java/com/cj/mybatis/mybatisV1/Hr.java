@@ -1,4 +1,4 @@
-package com.cj.mybatis;
+package com.cj.mybatis.mybatisV1;
 
 /**
  * @author caijun
