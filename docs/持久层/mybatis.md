@@ -1,4 +1,7 @@
 
+
+手写，能自己手写落地。
+大厂都是自研框架。
 #### Mybatis 核心
 一、mybatis框架原理分析
  1. 接口层（SqlSession接口）
@@ -26,3 +29,9 @@ JDBC存在的问题：
 
 看图解析：
 ![Image](https://raw.githubusercontent.com/JohnCaiJun/img_storage/master/java/mybatis/Snipaste_2020-05-05_11-37-46.png)
+
+
+SqlSource接口：提供访问  实现类的作用：1、数据封装 2.数据处理
+1. DynamicSqlSource: 封装的SQL语句是带有${}或者动态标签的
+2. RawSqlSource
+3. StaticSqlSource: 封装处理之后的Sql语句（JDBC可以直接执行的SQL语句）和对应的参数信息
